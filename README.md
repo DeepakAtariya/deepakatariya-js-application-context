@@ -1,11 +1,11 @@
 # Application Context Scope (ac-scope)
 
-[![npm version]v1.0.2](https://www.npmjs.com/package/@deepakatariya/ac-scope)
+[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.com/package/@deepakatariya/ac-scope)
 
 ## Table of Contents
 
-  - [Important](#important)
   - [Description](#description)
+  - [Important](#important)
   - [Recommendation & Use-Case](#recommendation)
   - [Features](#features)
   - [Installing](#installing)
