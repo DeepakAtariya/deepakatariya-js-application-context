@@ -1,10 +1,11 @@
 # Application Context Scope (ac-scope)
 
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.com/package/@deepakatariya/ac-scope)
+[![npm version]v1.0.2](https://www.npmjs.com/package/@deepakatariya/ac-scope)
 
 ## Table of Contents
 
   - [Important](#important)
+  - [Description](#description)
   - [Recommendation & Use-Case](#recommendation)
   - [Features](#features)
   - [Installing](#installing)
@@ -12,15 +13,9 @@
   - [Credits](#credits)
   - [License](#license)
 
-
-
-## Important
-
-- I have defined a variable name `applicationContext`. To use, I recommend `applicationContext` to set and get your resource. It is compatible with most of the javascript based framework such as react.js, node.js, etc
-
-## Recommendation
-
-### I recommend you to import this package while starting up the application (In bootloader files).
+## Description
+ac-scope lets you load your resource in the global environment/scope and lets you access it from anywhere in your application while developing.
+#### I recommend you to import this package while starting up the application (In bootloader files).
 
 ### There are multiple use cases of this package, so that you can use those resources from anywhere in your application while coding:
   - Loading and maintaining database connection.
@@ -29,6 +24,9 @@
 
 Please comment for other use cases as well.
 
+## Important
+
+- I have defined a variable name `applicationContext`. To use, I recommend `applicationContext` to set and get your resource. It is compatible with most of the javascript based framework such as react.js, node.js, etc
 
 ## Features
 
