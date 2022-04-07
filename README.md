@@ -21,12 +21,13 @@ ac-scope lets you load your resource in the global environment/scope and lets yo
   - Loading and maintaining database connection.
   - Logging system can be used in application context it can save you from importing everytime.
   - Keeping logged in user details.
+  - Keeping configuration details which should be loaded in your app once by env files, config jsons, etc .
 
 Please comment for other use cases as well.
 
 ## Important
 
-- I have defined a variable name `applicationContext`. To use, I recommend `applicationContext` to set and get your resource. It is compatible with most of the javascript based framework such as react.js, node.js, etc
+- Now you can access your resources directly your `key` (please see the example below) or I have defined a variable name `applicationContext`. To use, I recommend `applicationContext`  to set and get your resource. It is compatible with most of the javascript based framework such as react.js, node.js, etc
 
 ## Features
 
@@ -45,9 +46,19 @@ In order to set the variable in the application context, use the following appro
 applicationContext.set("key", "value");
 ```
 
-In order to get the variable in the application context, use the following approach:
+In order to access your resources in the application context using `get('key')` method using default keyword `applicationContext` , use the following approach:
 ```js
-applicationContext.get("key", "value");
+applicationContext.get("key");
+```
+
+In order to access your resources in the application context using directky key with default keyword `applicationContext.key`, use the following approach:
+```js
+applicationContext.key;
+```
+
+In order to access your resources in the application context using directky key without default keyword `key`, use the following approach:
+```js
+const s = key //using directly `key` saves you from writing `applicationContext` again and again;
 ```
 
 You can also free up the space by deleting, for doing use the following approach:

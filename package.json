@@ -1,5 +1,5 @@
 {
-  "name": "@deepakatariya/ac-scope",
+  "name": "ac-scope",
   "version": "1.0.2",
   "description": "This package helps you set your resources in application context so that you can access them in any corner of your application without importing.",
   "main": "index.js",
